@@ -1,0 +1,126 @@
+body{
+    background-color:#8a85ed;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e0e2f4;
+}
+#main{
+    background-color: #9ca6fa;
+    width:600px;
+    margin:auto;
+    padding: 5px 30px;
+    border-radius: 10px;
+    
+}
+svg{
+    display: block;
+    position: relative;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+header{
+    display:block;
+    position: relative;
+    margin: auto;
+}
+
+h1{
+    display:block;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+}
+
+header p{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+}
+
+.line{
+    stroke-width: 2px;
+}
+.rect{
+    stroke-width: 2px;
+    fill: transparent;
+}
+.circle{
+    stroke-width: 2px;
+    fill: transparent;
+}
+
+.ellipse{
+    stroke-width: 2px;
+    fill: transparent;
+}
+
+#button-div{
+    display:flex;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    width:600px;
+}
+button{
+    display: inline-block;
+    position: relative;
+    background-color: #b1cbfa;
+    height: 40px;
+    width: 100px;
+    border:none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.slidecontainer{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:600px;
+    margin: auto;
+}
+.slider{
+    display: inline-block;
+    width: 90%;
+}
+#color-button{
+    width: 200px;
+    color: white;
+    background: linear-gradient(90deg, rgb(255,0,0) 0%, rgb(0,255,0) 50%, rgb(0,0,255) 100%);
+    opacity: 95%;
+}
+.slidecontainer p{
+    margin: 10px;
+}
+
+
+#red{
+    color: rgb(255,0,0);
+}
+#green{
+    color: rgb(0,255,0);
+}
+#blue{
+    color: rgb(0,0,255);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #8a85ed;
+}
+#color-button:active{
+    opacity: 100%;
+}
+
+
+

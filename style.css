@@ -1,0 +1,139 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background-color: #FCBF49;
+    z-index: 2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #003049;
+}
+
+header h1{
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    line-height: 120px;
+    width:50%;
+    margin: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-width: 700px;
+    font-size: 100px;
+    
+    
+}
+nav{
+    display: flex;
+    position:relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    height:50px;
+    background-color: #D62828;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0;
+    width: 50%;
+}
+nav ul li{
+    height:50px;
+    display: inline-block;
+    text-align: center;
+    position:relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #D62828;
+    width: 100px;
+}
+nav a{
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.main{
+    top: 170px;
+    position: relative;
+    width: 780px;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+    z-index: 1;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main .main-element{
+    width: 600px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.project_img{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
+.project_main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proj_description{
+    margin: 10px;
+    height: 280px;
+    width:55%;
+}
+.proj_description h3{
+    padding: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+.proj_description p{
+    width: 400px;
+    margin: auto;
+}
+.main a{
+    text-decoration: none;
+}
+.main a:hover{
+    color:#F77F00; 
+}
+
+.img_container{
+    height: 300px;
+    width: 300px;
+    margin: 10px 0px;
+}
+body{
+    background-color:#003049;
+}
+
+a:link{
+    color:#003049;
+}
+a:visited{
+    color:#003049;
+}
+nav li:hover{
+    background-color:  #F77F00;
+}
+
+#active-tab{
+    background-color:  #F77F00;
+}

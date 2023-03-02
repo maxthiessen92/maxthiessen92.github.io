@@ -1,0 +1,36 @@
+body{
+    background-color: #05386b;
+    margin: 0;
+}
+.root{
+    text-align: center;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    position:relative;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    text-align: center;
+    color: #EDF5E1
+}
+.grid-frame{
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    margin: auto;
+    height: 800px;
+    width: 800px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #5cdb95;
+}
+
+.cell{
+    height: 8px;
+    width: 8px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-offset: -1px;
+}
