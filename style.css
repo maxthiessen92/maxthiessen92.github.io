@@ -15,10 +15,7 @@ header h1{
     display: inline-block;
     text-align: center;
     line-height: 120px;
-    width:50%;
-    margin: 0;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0 auto;
     min-width: 700px;
     font-size: 100px;
     
