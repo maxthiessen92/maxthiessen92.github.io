@@ -36,7 +36,7 @@ nav ul{
     align-items: center;
     flex-wrap: nowrap;
     padding: 0;
-    width: 50%;
+    width: 100%;
 }
 nav ul li{
     height:50px;
@@ -46,7 +46,7 @@ nav ul li{
     padding-left: 5%;
     padding-right: 5%;
     background-color: #D62828;
-    width: 100px;
+    width: 33%;
 }
 nav a{
     position: relative;
