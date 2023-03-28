@@ -1,0 +1,71 @@
+body {
+    background-color: #216869; 
+    align-items: center; 
+    width: 1400px; 
+    text-align: center; 
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+}
+header{
+    width: 1000px;
+    background-color: #49a078;
+    border-color: black; 
+    border-style: solid; 
+    border-width: 3px;
+    margin: 10px auto;
+}
+h1 {
+    text-align: center;
+    margin: 10px auto;
+}
+#instructions-div {
+    width: 1000px;
+    margin: 5px auto;
+}
+#instructions-div li{
+    text-align: left;
+    margin: 5px auto;
+}
+
+#button-div{
+    margin: 10px auto;
+}
+h2{
+    margin: 10px auto;
+}
+button{
+    width:100px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+svg {
+    width: 1000px; 
+    height: 550px; 
+    background-color: #c7ccc9; 
+    border-color: black; 
+    border-style: solid; 
+    border-width: 3px;
+}
+button {
+    right: 1100px; 
+    top: 300px;
+    background-color: #c7ccc9;
+    text-transform: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.line{
+    stroke-width: 2px; 
+    stroke: #49a078;
+}
+.opac{
+    opacity: 30%
+}
+.highlight{
+    stroke: #78d84b;
+}
